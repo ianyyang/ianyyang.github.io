@@ -4,6 +4,7 @@
 
 .home-grid {
     background: #92C1F0;
+    justify-content:center;
     text-align: center;
     position: fixed;
     top: 0;
@@ -14,35 +15,35 @@
 
 .breaker br {
     content: "";
-    margin: 10%;
+    margin: 12%;
     display: block;
 }
 
 .banner-text h1 {
-    font-size: 80px;
+    font-size: 65px;
     color: black;
-    font-family: 'Alber Medium';
-    margin-bottom: 0.05em;
+    font-family: 'Work Sans';
+    margin-bottom: 0.1em;
 }
 
 .banner-text p {
-    font-size: 23px;
+    font-size: 25px;
     color: black;
-    font-family: 'AlleynW01-Regular';
+    font-family: 'Open Sans';
 }
 
 .banner-text br {
     content: "";
-    margin: 1.25em;
+    margin: 1.5em;
     display: block;
     font-size: 20%;
 }
 
 .banner-text hr {
     border-top: 1px solid black;
-    width: 25em;
+    width: 24em;
     margin-top: 2.25em;
-    margin-bottom: 1.85em;
+    margin-bottom: 0.75em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,26 +55,25 @@
 }
 
 .social-links img {
-    font-size: 5em;
-    padding: 8px;
+    padding: 25px;
 }
 
 .resume-icon {
-    height: 75px;
+    height: 47px;
 }
 
 .projects-icon {
-    height: 80px;
+    height: 50px;
 }
 
 .github-icon {
-    height: 80px;
+    height: 55px;
 }
 
 .linkedin-icon {
-    height: 65px;
+    height: 45px;
 }
 
 .email-icon {
-    height: 65px;
+    height: 50px;
 }
