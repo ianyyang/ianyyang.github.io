@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Alber Medium';
+    src:
+        local('Alber Medium'),
+        url('./fonts/Alber Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AlleynW01-Regular';
+    src:
+        local('AlleynW01-Regular'),
+        url('./fonts/AlleynW01-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Light';
+    src:
+        local('HelveticaNeue-Light'),
+        url('./fonts/HelveticaNeue-Light.ttf') format('truetype');
+}
