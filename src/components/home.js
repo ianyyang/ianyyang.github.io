@@ -14,7 +14,7 @@ class Home extends Component {
               <br></br>
             </div>
             <div className="banner-text">
-              <h1>{greeting}! I'm Ian Yang!</h1>
+              <h1>Chum reap suor! <span>I'm Ian Yang!</span></h1>
               <p>
                 Computer Science & Statistics Student
                 <br></br>
