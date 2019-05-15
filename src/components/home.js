@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-var greetings = ['Hello', 'Hallo', 'Jambo', 'Barev dzez', 'Mingalarba', 'Chum reap suor', 'Ni hao', 'Namaste', 'Halo', 'Konnichiwa', 'Annyeonghaseyo', 'Sabaidee', 'Sain baina uu', 'Kumusta', 'Vanakkam', 'Sà-wàt-dee', 'Xin chào', 'Tungjatjeta', 'Zdravejte', 'Bok', 'Ahoj', 'Hej', 'Terve', 'Bonjour', 'Dia Duit', 'Guten tag', 'Yasass', 'Szervusz', 'Halló', 'Salve', 'God dag', 'Cześć', 'Olá', 'Salut', 'Zdravstvuyte', 'Zdravo', 'Hola', 'Hej', 'Vitayu', 'As-salām ‘alaykum', 'Shalom', 'Salâm', 'Merhaba', 'Aloha'];
+var greetings = ['Hello', 'Hallo', 'Jambo', 'Barev dzez', 'Mingalarba', 'Chum reap suor', 'Ni hao', 'Namaste', 'Halo', 'Konnichiwa', 'Annyeonghaseyo', 'Sabaidee', 'Sain baina uu', 'Kumusta', 'Vanakkam', 'Sà-wàt-dee', 'Xin chào', 'Tungjatjeta', 'Zdravejte', 'Bok', 'Ahoj', 'Hej', 'Terve', 'Bonjour', 'Dia duit', 'Guten tag', 'Yasass', 'Szervusz', 'Halló', 'Salve', 'God dag', 'Cześć', 'Olá', 'Salut', 'Zdravstvuyte', 'Zdravo', 'Hola', 'Hej', 'Vitayu', 'As-salām ‘alaykum', 'Shalom', 'Salâm', 'Merhaba', 'Aloha'];
 var greeting = greetings[Math.floor(Math.random()*greetings.length)];
 
 class Home extends Component {
@@ -26,27 +26,27 @@ class Home extends Component {
             <div className="social-links">
               {/* Resume */}
               <a href='../resources/Resume (Ian Yang).pdf' rel="noopener noreferrer" target="_blank">
-                <img src='../images/resume.svg' alt="Resume" className="resume-icon"/>
+                <img src='../images/resume.svg' alt="Resume" className="social-icon"/>
               </a>
 
               {/* Projects */}
               <a href='https://www.google.com/' rel="noopener noreferrer" target="_blank">
-                <img src='../images/projects.svg' alt="Projects" className="projects-icon"/>
+                <img src='../images/projects.svg' alt="Projects" className="social-icon"/>
               </a>
 
               {/* GitHub */}
               <a href='https://github.com/ianyyang/' rel="noopener noreferrer" target="_blank">
-                <img src='../images/github.svg' alt="GitHub" className="github-icon"/>
+                <img src='../images/github.svg' alt="GitHub" className="social-icon"/>
               </a>
 
               {/* LinkedIn */}
               <a href='https://www.linkedin.com/in/ianyyang/' rel="noopener noreferrer" target="_blank">
-                <img src='../images/linkedin.svg' alt="LinkedIn" className="linkedin-icon"/>
+                <img src='../images/linkedin.svg' alt="LinkedIn" className="social-icon"/>
               </a>
 
               {/* Email */}
               <a href='mailto:iany.yang.utoronto.ca' rel="noopener noreferrer" target="_blank">
-                <img src='../images/email.svg' alt="Email" className="email-icon"/>
+                <img src='../images/email.svg' alt="Email" className="social-icon"/>
               </a>
             </div>
           </Cell>
