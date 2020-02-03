@@ -4,317 +4,148 @@
 
 .home-grid {
     background: #92C1F0;
-    justify-content:center;
-    text-align: center;
-    position: fixed;
+    position: block;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 98%;
+    text-align: center;
+    justify-content: center;
 }
 
-.breaker br {
+.projects-grid {
+    background: #92C1F0;
+    position: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 98%;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Home */
+.banner-text h1 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Work Sans';
+    margin-top: 6.25em;
+    margin-bottom: 0.25em;
+}
+
+/* Span: newline on small screens */
+@media only screen and (max-width: 600px) {
+    .banner-text h1 {
+        margin-top: 5em;
+    }
+
+    .banner-text span {
+        display: block;
+        margin-top: -0.125em;
+    }
+}
+
+.banner-text p {
+    font-size: 15px;
+    color: black;
+    font-family: 'Open Sans';
+}
+
+.banner-text br {
     content: "";
-    margin: 12%;
+    margin: -1em;
     display: block;
+    font-size: 20%;
 }
 
-@media only screen and (min-width: 0px) {
-    .banner-text h1 {
-        font-size: 30px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.25em;
-    }
-
-    .banner-text span {
-        display: block;
-        margin-top: -0.15em;
-    }
-    
-    .banner-text p {
-        font-size: 14px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
-        content: "";
-        margin: -1.75em;
-        display: block;
-        font-size: 20%;
-    }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 12.5em;
-        margin-top: -0.25em;
-        margin-bottom: 0.75em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: 2px;
-    }
-    
-    .social-icon {
-        height: 45px;
-    }   
+.banner-text hr {
+    border-top: 1px solid black;
+    width: 15em;
+    margin-top: 1.25em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media only screen and (min-width: 425px) {
-    .banner-text h1 {
-        font-size: 37px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.25em;
-    }
-
-    .banner-text span {
-        display: block;
-        margin-top: -0.2em;
-    }
-    
-    .banner-text p {
-        font-size: 17px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
-        content: "";
-        margin: 0em;
-        display: block;
-        font-size: 20%;
-    }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 12.5em;
-        margin-top: 0em;
-        margin-bottom: 1em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: 4px;
-    }
-    
-    .social-icon {
-        height: 50px;
-    }   
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
-    .banner-text h1 {
-        font-size: 40px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.25em;
-    }
-
-    .banner-text span {
-        display: inline;
-        margin-top: 0em;
-    }
-    
-    .banner-text p {
-        font-size: 18px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
-        content: "";
-        margin: 0em;
-        display: block;
-        font-size: 20%;
-    }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 15em;
-        margin-top: 1.5em;
-        margin-bottom: 1.25em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: 6px;
-    }
-    
-    .social-icon {
-        height: 55px;
-    }   
+.social-links img {
+    padding: 3px;
 }
 
-@media only screen and (min-width: 1024px) {
-    .banner-text h1 {
-        font-size: 50px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.25em;
-    }
-
-    .banner-text span {
-        display: inline;
-        margin-top: 0em;
-    }
-    
-    .banner-text p {
-        font-size: 23px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
-        content: "";
-        margin: 1.5em;
-        display: block;
-        font-size: 20%;
-    }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 19em;
-        margin-top: 2em;
-        margin-bottom: 1.5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: px;
-    }
-    
-    .social-icon {
-        height: 60px;
-    }   
+.social-icon {
+    height: 55px;
 }
 
-@media only screen and (min-width: 1440px) {
-    .banner-text h1 {
-        font-size: 65px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.1em;
-    }
-
-    .banner-text span {
-        display: inline;
-        margin-top: 0em;
-    }
-    
-    .banner-text p {
-        font-size: 25px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
-        content: "";
-        margin: 1.5em;
-        display: block;
-        font-size: 20%;
-    }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 24em;
-        margin-top: 2.25em;
-        margin-bottom: 1.25em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: 10px;
-    }
-    
-    .social-icon {
-        height: 80px;
-    }   
+/* Projects */
+.projects-mobile {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1.5em;
 }
 
-@media only screen and (min-width: 2560px) {
-    .banner-text h1 {
-        font-size: 90px;
-        color: black;
-        font-family: 'Work Sans';
-        margin-bottom: 0.5em;
-    }
+.projects-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .banner-text span {
-        display: inline;
-        margin-top: 0em;
-    }
-    
-    .banner-text p {
-        font-size: 40px;
-        color: black;
-        font-family: 'Open Sans';
-    }
-    
-    .banner-text br {
+.projects-header h1 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Work Sans';
+    margin-top: 12.5em;
+}
+
+.projects-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+}
+
+.projects-mobile a {
+    text-decoration: none;
+}
+
+.projects-desktop a {
+    text-decoration: none;
+}
+
+.projects-desc {
+    font-family: 'Roboto Condensed';
+    color: black;
+    font-size: 17px;
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -0.5em;
+}
+
+.projects-tech {
+    font-size: 13px;
+    color: black;
+    font-family: 'Cousine';
+    margin: auto;
+}
+
+.projects-divider {
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Br: Extra margin for big screens */
+@media only screen and (min-width: 600px) {
+    .projects-desktop-endpage br {
         content: "";
-        margin: 4em;
         display: block;
-        font-size: 20%;
+        margin-bottom: 15px;
     }
-    
-    .banner-text hr {
-        border-top: 1px solid black;
-        width: 24em;
-        margin-top: 3.75em;
-        margin-bottom: 2.5em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .social-links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .social-links img {
-        padding: 15px;
-    }
-    
-    .social-icon {
-        height: 125px;
-    }   
 }
